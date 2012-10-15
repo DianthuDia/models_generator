@@ -32,6 +32,12 @@ module ModelsGenerator
 
   # default
   configure do |config|
+    begin
+      require 'master_cache'
+    rescue LoadError
+      #do nothing
+    end
+
     config.master_attrs = %w[name label value]
     config.master_eval = defined?(MasterCache)? 'master_cache' : ''
   end
