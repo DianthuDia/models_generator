@@ -62,6 +62,14 @@ Run the following generator command, then edit the generated file.
 
 `$ rails g models_generator:config`
 
+## Recommend plugins
+* [master_cache](https://rubygems.org/gems/master_cache)
+	* 'models_generator' plugin integrated 'master_cache'
+
+* [schema_plus](https://rubygems.org/gems/schema_plus)
+* [schema_associations](https://rubygems.org/gems/schema_associations)
+	* These plugin auto resolve relation (belongs_to, have_many...)
+
 ## Supported versions
 
 * Ruby 1.8.7, 1.9.3
