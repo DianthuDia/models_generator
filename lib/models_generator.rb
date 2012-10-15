@@ -1,5 +1,3 @@
 require "models_generator/version"
+require 'models_generator/config'
 
-module ModelsGenerator
-  # Your code goes here...
-end
