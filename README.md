@@ -1,6 +1,8 @@
 # ModelsGenerator
 
-[![Build Status](https://secure.travis-ci.org/DianthuDia/models_generator.png)](http://travis-ci.org/DianthuDia/models_generator) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/DianthuDia/models_generator)
+[![Build Status](https://secure.travis-ci.org/DianthuDia/models_generator.png)](http://travis-ci.org/DianthuDia/models_generator)
+[![Dependency Status](https://gemnasium.com/DianthuDia/models_generator.png)](https://DianthuDia/models_generator)
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/DianthuDia/models_generator)
 
 A model files generator plugin from migrate file
 
