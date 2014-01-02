@@ -74,8 +74,8 @@ Run the following generator command, then edit the generated file.
 
 ## Supported versions
 
-* Ruby 1.8.7, 1.9.3
-* ActiveRecord 3.x
+* Ruby 1.8.7, 1.9.3, 2.1.0
+* ActiveRecord 3.x, 4.x
 
 ## Contributing
 
