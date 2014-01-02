@@ -23,6 +23,7 @@ class Rails::ModelsGenerator < ActiveRecord::Generators::ModelGenerator
       clear_instance_variables pluralize_table_names? ? tbl_name.singularize : tbl_name
       template 'model.rb.erb', File.join('app/models', class_path, "#{file_name}.rb")
       template 'model_spec.rb.erb', File.join('spec/models', class_path, "#{file_name}_spec.rb")
+      template 'fabricator.rb.erb', File.join('spec/fabricators', class_path, "#{file_name}_fabricator.rb")
     end
   end
   
